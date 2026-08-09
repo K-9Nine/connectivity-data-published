@@ -1,0 +1,31 @@
+{
+  "feed": "contract_status",
+  "description": "Live-book snapshot: share of currently-billed circuits already past their contract end, with contract-end provenance mix",
+  "method_version": "1.0.0",
+  "as_of": "2026-08-08",
+  "generated_at": "2026-08-08T14:40:58+00:00",
+  "source_commit": "a06f6ca602f059e3754f91a0bc3aa612085c67d7",
+  "min_cell_n": 5,
+  "terms": "CC-BY-4.0",
+  "stats": [
+    {
+      "metric": "pct_past_contract_end",
+      "value": 58.4,
+      "n": 1338,
+      "circuits_past_contract_end": 781,
+      "contract_end_provenance_mix": {
+        "public_contract": 34,
+        "crm_field": 810,
+        "billing": 439,
+        "crm_derived": 55
+      },
+      "basis": "billed_from_anchor",
+      "population": "live_circuits",
+      "suppressed": false,
+      "as_of": "2026-08-08",
+      "method_version": "1.0.0"
+    }
+  ],
+  "attribution_text": "Source: Amvia UK Connectivity Data",
+  "canonical_url": "https://amvia.co.uk/data"
+}

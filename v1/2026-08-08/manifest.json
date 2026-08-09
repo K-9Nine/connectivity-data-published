@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-08-08",
+  "generated_at": "2026-08-08T14:40:58+00:00",
+  "method_version": "1.0.0",
+  "terms": {
+    "benchmark_cells": "all-rights-reserved-contact-for-licence",
+    "regional_medians": "all-rights-reserved-contact-for-licence",
+    "ecc_pooled": "CC-BY-4.0",
+    "delivery_lag": "CC-BY-4.0",
+    "contract_status": "CC-BY-4.0"
+  },
+  "attribution_text": "Source: Amvia UK Connectivity Data",
+  "canonical_url": "https://amvia.co.uk/data",
+  "source_commit": "a06f6ca602f059e3754f91a0bc3aa612085c67d7",
+  "min_cell_n": 5,
+  "feeds": [
+    "benchmark_cells",
+    "regional_medians",
+    "ecc_pooled",
+    "delivery_lag",
+    "contract_status"
+  ],
+  "reserved_feeds": [
+    "availability_gap",
+    "rollover_tenure"
+  ],
+  "files": {
+    "benchmark_cells.json": {
+      "sha256": "718eac0fb162c7a7d6bcdc15540f4150fca3b4f2f1b2038fe398f4f974d927e3",
+      "bytes": 77933
+    },
+    "regional_medians.json": {
+      "sha256": "6ccd9afaf956d0e55d061199a352171667ece3a761828c2d2a433f2a2893e3a0",
+      "bytes": 37415
+    },
+    "ecc_pooled.json": {
+      "sha256": "01300af91c7f89f7dfac860b575f967b7daf08eafc8bcec35c3f8caff1b72726",
+      "bytes": 1103
+    },
+    "delivery_lag.json": {
+      "sha256": "b68aab1343efbc610ac96dd77189c8bab21a4efe9af34734dd245fba0f671743",
+      "bytes": 51725
+    },
+    "contract_status.json": {
+      "sha256": "596c79c3b8fe6a3dedce33cadebc65ad15d49cf6afdde5f107984b20d205b1c3",
+      "bytes": 953
+    }
+  }
+}

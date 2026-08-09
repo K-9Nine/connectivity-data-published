@@ -1,0 +1,37 @@
+{
+  "feed": "ecc_pooled",
+  "description": "Excess construction charges, pooled UK-wide: quoted-amount quantiles and incidence floor",
+  "method_version": "1.0.0",
+  "as_of": "2026-08-08",
+  "generated_at": "2026-08-08T14:40:58+00:00",
+  "source_commit": "a06f6ca602f059e3754f91a0bc3aa612085c67d7",
+  "min_cell_n": 5,
+  "terms": "CC-BY-4.0",
+  "stats": [
+    {
+      "metric": "quoted_amount_gbp",
+      "suppressed": false,
+      "basis": "site-deduped tracker records + priced email threads, pooled",
+      "n": 97,
+      "median": 2197,
+      "p25": 348,
+      "p75": 7412,
+      "p90": 16000,
+      "max": 79000,
+      "as_of": "2026-08-08",
+      "method_version": "1.0.0"
+    },
+    {
+      "metric": "incidence_floor_pct",
+      "suppressed": false,
+      "n": 21,
+      "denominator_orders": 1313,
+      "value": 1.6,
+      "basis": "distinct ECC sites over ethernet provisioning orders \u2014 a floor, not a rate",
+      "as_of": "2026-08-08",
+      "method_version": "1.0.0"
+    }
+  ],
+  "attribution_text": "Source: Amvia UK Connectivity Data",
+  "canonical_url": "https://amvia.co.uk/data"
+}
