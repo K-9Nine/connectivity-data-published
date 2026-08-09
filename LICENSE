@@ -1,0 +1,62 @@
+Amvia UK Connectivity Data — published feeds
+Licence terms, by feed
+
+This repository is licensed in two tiers. The tier that applies to a given
+file is stated in that file's own `terms` field, and in the `terms` map in
+the `manifest.json` alongside it. Those machine-readable values are
+authoritative; this document explains them.
+
+================================================================================
+TIER 1 — HEADLINE FEEDS: Creative Commons Attribution 4.0 International
+         (CC-BY-4.0)
+
+Applies to files whose `terms` field reads exactly:
+
+    CC-BY-4.0
+
+Currently: delivery_lag, contract_status, ecc_pooled.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence,
+and indicate if changes were made.
+
+Required attribution text:
+
+    Source: Amvia UK Connectivity Data
+
+Full licence: https://creativecommons.org/licenses/by/4.0/
+Legal code:   https://creativecommons.org/licenses/by/4.0/legalcode
+
+Requested, but not a condition of the licence: cite a pinned commit URL
+rather than a branch URL, so the figures you quote remain the figures a
+reader retrieves.
+
+================================================================================
+TIER 2 — GRANULAR FEEDS: All rights reserved
+
+Applies to files whose `terms` field reads exactly:
+
+    all-rights-reserved-contact-for-licence
+
+Currently: benchmark_cells, regional_medians.
+
+These files are published for inspection and evaluation. No licence to
+copy, redistribute, or create derivative works is granted by their presence
+in a public repository. For commercial or redistribution licensing, open an
+issue on this repository.
+
+================================================================================
+NO WARRANTY
+
+These statistics are derived from one provider's commercial records and
+describe that book of business. They are provided "as is", without warranty
+of any kind, express or implied, including but not limited to warranties of
+merchantability, fitness for a particular purpose and non-infringement. They
+are not a market index, not investment advice, and not a substitute for a
+quotation. In no event shall the authors or copyright holders be liable for
+any claim, damages or other liability arising from, out of or in connection
+with these files or their use.
+
+Each figure's population, measurement basis and sample size are stated in
+the data. Read them before relying on a number: a statistic is only as
+general as the population beneath it.

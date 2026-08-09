@@ -1,0 +1,5 @@
+# This repo holds published artifacts only. No source, no raw data.
+*.duckdb
+*.csv
+*.xlsx
+.env
